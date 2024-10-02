@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <title>Rólunk</title>
+    <style>
+        body {
+            background-color: #f8f9fa;
+            color: rgb(122, 68, 17);
+            /* Szövegszín */
+            font-family: Arial, sans-serif;
+            margin: 0;
+        }
+
+
+        main {
+            padding: 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        h1 {
+            color: rgb(194, 121, 53);
+            /* Főcím színe */
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            color: rgb(194, 121, 53);
+            /* Alcím színe */
+        }
+
+        p,
+        ul {
+            line-height: 1.6;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        ul li {
+            list-style: disc;
+        }
+
+        .kepek {
+            max-width: 100%;
+            height: auto;
+            margin: 15px 0;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        footer {
+            background-color: #904404;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            position: relative;
+        }
+
+
+
+
+        @media (max-width: 768px) {
+            header ul li {
+                display: block;
+                margin: 10px 0;
+            }
+
+            main {
+                padding: 10px;
+            }
+
+            h1 {
+                font-size: 1.8em;
+            }
+        }
+
+
+        nav {
+            background-color: #904404;
+        }
+
+        nav a {
+            color: rgb(194, 121, 53);
+        }
+
+        #logo {
+            max-width: 150px;
+        }
+
+
+        #navbarToggleExternalContent {
+            background-color: #904404;
+        }
+
+
+        .nav-item {
+            color: rgb(194, 121, 53);
+        }
+
+        a:hover {
+            background-color: rgba(194, 121, 53, 0.5);
+            color: white
+        }
+
+        a {
+            color: rgb(194, 121, 53);
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="collapse" id="navbarToggleExternalContent" data-bs-theme="dark">
+        <div class="">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item "><a class="nav-link" href="index.html">Főoldal</a></li>
+                <li class="nav-item "><a class="nav-link" href="#">Rólunk</a></li>
+                <li class="nav-item "><a class="nav-link" href="szolgaltatasok.html">Szolgáltatások</a></li>
+                <li class="nav-item "><a class="nav-link" href="latnivalok.html">Látnivalók</a></li>
+                <li class="nav-item "><a class="nav-link" href="galeria.html">Galéria</a></li>
+                <li class="nav-item "><a class="nav-link" href="arak.html">Árak</a></li>
+                <li class="nav-item "><a class="nav-link" href="ajanlatfoglalas.html">Ajánlat/Foglalás</a></li>
+
+            </ul>
+        </div>
+    </div>
+    <nav class="navbar navbar-dark ">
+        <div class="container-fluid">
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+
+
+
+        </div>
+    </nav>
+
+    <main>
+        <h1>Hotel festői környezetben</h1>
+        <p>Szállodánk a Bükki Nemzeti Park területén, Lillafüred közelében, Miskolc-Alsóhámorban található. A hotel két
+            épületből és egy különálló recepcióból áll. Az épületeket a Szinva patak halk csobogása, a Bükk hegység
+            friss levegője és az erdő öleli körbe. Vendégeink számára részben fedett, buszok fogadására is alkalmas
+            parkoló áll rendelkezésre, valamint egy tágas pihenőkert, ahol a mozgás szerelmesei számos lehetőség közül
+            választhatnak. A kertben játszótér is várja a gyerekeket.</p>
+
+        <div class="row">
+            <div class="col-md-4">
+                <img src="hote-szeleta-fotok-kulso102.jpg" alt="1.kép" class="kepek">
+            </div>
+            <div class="col-md-4">
+                <img src="hote-szeleta-fotok-kornyezet106.jpg" alt="2.kép" class="kepek">
+            </div>
+            <div class="col-md-4">
+                <img src="hotel-szeleta-fotok-szolgaltatasok114.jpg" alt="3.kép" class="kepek">
+            </div>
+        </div>
+
+
+
+        <h1>Ideális hely a természet kedvelőinek</h1>
+        <p>Szállodánk közvetlen környezetében számos látnivaló található, amely a természet szerelmesei számára ideális.
+            A közelben található többek között:</p>
+        <ul>
+            <li>Lillafüredi Erdei Vasút</li>
+            <li>Szeleta-barlang</li>
+            <li>Szent István-cseppkőbarlang</li>
+            <li>Hámori-tó</li>
+            <li>Szinva-patak vízesése (lillafüredi vízesés)</li>
+            <li>Lillafüredi pisztrángos</li>
+            <li>Miskolci Állatkert</li>
+        </ul>
+
+        <p>Ezek a nevezetességek akár gyalog is megközelíthetők. Továbbá rövid autóútra vagy tömegközlekedéssel könnyen
+            elérhetők:</p>
+        <ul>
+            <li>Tapolcai Barlangfürdő</li>
+            <li>Diósgyőri vár</li>
+            <li>Bánkúti sícentrum</li>
+        </ul>
+
+        <h1>Étkezési lehetőségek</h1>
+        <p>Napközben vendégeink számára több, jó hírű vendéglő áll rendelkezésre közvetlenül a szálloda mellett, illetve
+            a közelben. Ezek az éttermek elfogadják a SZÉP kártyát is. Az alig 1 km-re fekvő Lillafüreden büfé jellegű
+            étkezési lehetőségek is várják az érdeklődőket.</p>
+
+        <h1>Szálláslehetőségek</h1>
+        <p>Szállodánk 3 lakosztállyal és 22 kétágyas szobával rendelkezik, hogy minden vendégünk megtalálja a számára
+            megfelelő elhelyezést.</p>
+
+        <h2>Lakosztályok</h2>
+        <p>A lakosztályok két szintesek, az előszobából csigalépcső vezet a nappaliba, amely erkéllyel, sarokülővel,
+            beépített bútorokkal, asztallal, székkel, fotelággyal, állóventilátorral, TV-vel, telefonnal és minibárral
+            van felszerelve. A hálószobában összetolt ágyak, beépített bútorok és íróasztal található. A fürdőszoba
+            zuhanykabinnal és WC-vel felszerelt.</p>
+        <img src="hotel-szeleta-fotok-belso107.jpg" alt="kep4" class="kepek">
+
+        <h2>Kétágyas szobák</h2>
+        <p>A kétágyas szobák előszobából, fürdőszobából és hálószobából állnak, és részben erkéllyel rendelkeznek. A
+            szobákban összetolt ágyak, beépített bútorok, íróasztal, állóventilátor, TV, minibár és telefon található. A
+            fürdőszoba zuhanykabinnal és WC-vel felszerelt. Többségükben WiFi is elérhető. Lehetőség van vendégágy vagy
+            babaágy elhelyezésére, amelyet előre jelzett igény esetén biztosítunk.</p>
+
+        <img src="hotel-szeleta-fotok-belso103.jpg" alt="kep5" class="kepek">
+
+        <h1>Szállásfoglalási információk</h1>
+        <p>A szobákat 14:00 órától lehet elfoglalni, és 10:00 óráig kell elhagyni. Felhívjuk figyelmüket, hogy egy
+            szobafoglaláshoz – előzetes engedély hiányában – maximum 1 személygépkocsi vagy 2 motorkerékpár számára
+            biztosítunk díjmentes parkolást. Autóbuszok és mikrobuszok parkolása csak előzetes megállapodás alapján
+            lehetséges.</p>
+
+        <img src="hotel-szeleta-fotok-szolgaltatasok120.jpg" alt="kep6" class="kepek">
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Hotel Szeleta. Minden jog fenntartva.</p>
+    </footer>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+        </script>
+</body>
+
+</html>

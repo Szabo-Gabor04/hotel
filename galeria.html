@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+    integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous" />
+
+  <title>Galéria</title>
+
+  <style>
+    body {
+      background-color: #f8f9fa;
+      color: rgb(122, 68, 17);
+    }
+
+    nav {
+      background-color: #904404;
+    }
+
+    nav a {
+      color: #fff;
+    }
+
+    #logo {
+      max-width: 150px;
+    }
+
+    footer {
+      background-color: #904404;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+      position: relative;
+    }
+
+
+    main {
+      padding: 20px;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    h1 {
+      color: rgb(194, 121, 53);
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    h2 {
+      color: rgb(194, 121, 53);
+    }
+
+    p,
+    ul {
+      line-height: 1.6;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    ul li {
+      list-style: disc;
+    }
+
+
+
+    img {
+      width: 300px;
+      height: 200px;
+      object-fit: cover;
+    }
+
+
+
+    @media (max-width: 768px) {
+      main {
+        padding: 10px;
+      }
+
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+
+    #navbarToggleExternalContent {
+      background-color: #904404;
+    }
+
+    .nav-item {
+      color: rgb(194, 121, 53);
+    }
+
+    a:hover {
+      background-color: rgba(194, 121, 53, 0.5);
+      color: white;
+    }
+
+    a {
+      color: rgb(194, 121, 53);
+    }
+
+
+    .btn-custom {
+      background-color: #904404;
+      color: white;
+      border: 2px solid rgb(194, 121, 53);
+      padding: 10px 20px;
+      font-size: 18px;
+      border-radius: 5px;
+      transition: background-color 0.3s, color 0.3s;
+    }
+
+    .btn-custom:hover {
+      background-color: rgb(194, 121, 53);
+      color: #fff;
+      border-color: #904404;
+    }
+
+    .btn-custom:focus {
+      outline: none;
+      box-shadow: 0 0 0 0.2rem rgba(194, 121, 53, 0.5);
+    }
+
+
+
+    #tartalom {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+    }
+
+    .bal,
+    .jobb {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .kozep {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .kep {
+      width: 300px;
+      height: 200px;
+      object-fit: cover;
+    }
+
+
+    @media (max-width: 768px) {
+      #tartalom {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div id="content">
+    <div class="collapse" id="navbarToggleExternalContent" data-bs-theme="dark">
+      <div class="">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Főoldal</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="rolunk.html">Rólunk</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="szolgaltatasok.html">Szolgáltatások</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="latnivalok.html">Látnivalók</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Galéria</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="arak.html">Árak</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="ajanlatfoglalas.html">Ajánlat/Foglalás</a>
+          </li>
+
+        </ul>
+      </div>
+    </div>
+    <nav class="navbar navbar-dark">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
+          aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+    </nav>
+    <h1>Galéria:</h1>
+    <main>
+
+      <form name="kepek1">
+        <div name="tartalom" id="tartalom">
+          <div id="cim">
+            <h1>Kívülről:</h1>
+          </div>
+          <div class="bal">
+            <input type="button" class="btn btn-lg btn-custom mt-4" value="<--" onclick="balra1()" />
+
+          </div>
+          <div id="idekep" class="kozep">
+            <img class="kep" id="kepide1" src=" " alt="na" />
+          </div>
+          <div class="jobb">
+            <input type="button" class="btn btn-lg btn-custom mt-4" value="-->" onclick="jobbra1()" />
+          </div>
+        </div>
+      </form><br><br>
+
+      <form name="kepek2">
+        <div name="tartalom" id="tartalom">
+          <div id="cim">
+            <h1>Belülről:</h1>
+          </div>
+          <div class="bal">
+            <input type="button" class="btn btn-lg btn-custom mt-4" value="<--" onclick="balra2()" />
+
+          </div>
+          <div id="idekep" class="kozep">
+            <img class="kep" id="kepide2" src=" " alt="na" />
+          </div>
+          <div class="jobb">
+            <input type="button" class="btn btn-lg btn-custom mt-4" value="-->" onclick="jobbra2()" />
+          </div>
+        </div>
+      </form>
+      <br><br>
+
+
+      <form name="kepek1">
+        <div name="tartalom" id="tartalom">
+          <div id="cim">
+            <h1>Szolgáltatások:</h1>
+          </div>
+          <div class="bal">
+            <input type="button" class="btn btn-lg btn-custom mt-4" value="<--" onclick="balra3()" />
+
+          </div>
+          <div id="idekep" class="kozep">
+            <img class="kep" id="kepide3" src=" " alt="na" />
+          </div>
+          <div class="jobb">
+            <input type="button" class="btn btn-lg btn-custom mt-4" value="-->" onclick="jobbra3()" />
+          </div>
+        </div>
+      </form><br><br>
+
+
+
+      <form name="kepek1">
+        <div name="tartalom" id="tartalom">
+          <div id="cim">
+            <h1>Látnivalók:</h1>
+          </div>
+          <div class="bal">
+            <input type="button" class="btn btn-lg btn-custom mt-4" value="<--" onclick="balra4()" />
+
+          </div>
+          <div id="idekep" class="kozep">
+            <img class="kep" id="kepide4" src=" " alt="na" />
+          </div>
+          <div class="jobb">
+            <input type="button" class="btn btn-lg btn-custom mt-4" value="-->" onclick="jobbra4()" />
+          </div>
+        </div>
+      </form>
+
+
+    </main>
+    <footer>
+      <p>© 2024 www.hotelszeleta.hu</p>
+    </footer>
+  </div>
+  <script src="index.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+    integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous" />
+  <title>Szolgáltatások</title>
+  <style>
+    body {
+      background-color: #f8f9fa;
+      color: rgb(122, 68, 17);
+    }
+
+    nav {
+      background-color: #904404;
+    }
+
+    nav a {
+      color: #fff;
+    }
+
+    #logo {
+      max-width: 150px;
+    }
+
+    footer {
+      background-color: #904404;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+      position: relative;
+    }
+
+    main {
+      padding: 20px;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    h1 {
+      color: rgb(194, 121, 53);
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    h2 {
+      color: rgb(194, 121, 53);
+    }
+
+    p,
+    ul {
+      line-height: 1.6;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    ul li {
+      list-style: disc;
+    }
+
+    .kepek {
+      max-width: 100%;
+      height: auto;
+      margin: 15px 0;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+
+
+    img {
+      width: 300px;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    img {
+      width: 300px;
+      height: 200px;
+      object-fit: cover;
+    }
+
+
+    @media (max-width: 768px) {
+      header ul li {
+        display: block;
+        margin: 10px 0;
+      }
+
+      main {
+        padding: 10px;
+      }
+
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+
+
+    #navbarToggleExternalContent {
+      background-color: #904404;
+    }
+
+    .nav-item {
+      color: rgb(194, 121, 53);
+    }
+
+    a:hover {
+      background-color: rgba(194, 121, 53, 0.5);
+      color: white;
+    }
+
+
+    a {
+      color: rgb(194, 121, 53);
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="collapse" id="navbarToggleExternalContent" data-bs-theme="dark">
+    <div class="">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item"><a class="nav-link" href="index.html">Főoldal</a></li>
+        <li class="nav-item">
+          <a class="nav-link" href="rolunk.html">Rólunk</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Szolgáltatások</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="latnivalok.html">Látnivalók</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="galeria.html">Galéria</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="arak.html">Árak</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="ajanlatfoglalas.html">Ajánlat/Foglalás</a>
+        </li>
+
+      </ul>
+    </div>
+  </div>
+  <nav class="navbar navbar-dark">
+    <div class="container-fluid">
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </div>
+  </nav>
+  <h1>Szolgáltatásaink:</h1>
+
+  <main>
+    <h1>Reggeli:</h1>
+    <p>
+      Vendégeink számára bőséges, svédasztalos reggeli 7:00 és 9:30 között,
+      melyet a szobaár tartalmaz.
+    </p>
+
+    <h1>Szauna:</h1>
+    <p>
+      14:00-tól 22:00-ig díjmentesen használható finn szauna várja
+      vendégeinket. A 5-6 fő befogadására alkalmas szauna mellett zuhanyzók és
+      öltözők, valamint merülőmedence is rendelkezésre áll.
+    </p>
+    <div class="gallery">
+      <img src="hotel-szeleta-fotok-szolgaltatasok117.jpg" alt="Szauna" class="kepek" />
+      <img src="hotel-szeleta-fotok-szolgaltatasok103.jpg" alt="Szauna" class="kepek" />
+    </div>
+
+    <h1>Medence:</h1>
+    <p>
+      A kültéri, vízforgatóval ellátott, szezonális medence 5 méter átmérőjű,
+      1 méter mély, ideális a gyermekek számára. A napozóágyakkal felszerelt
+      terület kellemes pihenést biztosít a felnőtteknek is.
+    </p>
+    <img src="hotel-szeleta-fotok-szolgaltatasok100.jpg" alt="Medence" class="kepek" />
+
+    <h1>Sókamra:</h1>
+    <p>
+      A recepció alatt található mesterséges sóbarlangunk tökéletes a légúti
+      problémák kezelésére és relaxációra. A terápia ajánlott időtartama 30-40
+      perc.
+    </p>
+    <img src="2010-09-20-025-1024x768-e1288795442385.jpg" alt="Sókamra" class="kepek" />
+
+    <h1>Kerékpárbérlés:</h1>
+    <p>
+      Fedezze fel a környéket bérelhető kerékpárjainkkal! A bérleti díj 3.000
+      Ft/nap, 5.000 Ft kaucióval, mely visszajár. A kerékpárokat 8:00 és 20:00
+      között lehet bérelni, 12 év felettiek számára.
+    </p>
+    <img src="bicikli-e1377803607210.jpg" alt="Kerékpárbérlés" class="kepek" />
+
+    <h1>Pihenőkert és játszótér:</h1>
+    <p>
+      Tágas kertünkben ping-pong, tollaslabda és mini foci várja a vendégeket.
+      A gyerekek számára játszóteret alakítottunk ki, mely csúszdával,
+      hintával és homokozóval felszerelt. A kertben pihenőszanetli és
+      napozóágyak biztosítanak kényelmes kikapcsolódást.
+    </p>
+    <img src="hote-szeleta-fotok-kornyezet109.jpg" alt="Pihenőkert" class="kepek" />
+    <img src="hotel-szeleta-fotok-szolgaltatasok116.jpg" alt="Játszótér" class="kepek" />
+
+    <h1>Bababarát szolgáltatások:</h1>
+    <p>
+      Díjmentesen biztosítunk utazóágyat és fürdetőkádat a kisgyermekek
+      számára. A reggeliző helyiségben etetőszékek és mikrohullámú sütő áll
+      rendelkezésre.
+    </p>
+
+    <h1>Parkolás:</h1>
+    <p>
+      Több mint 25 gépkocsinak és busznak alkalmas parkolóval rendelkezünk.
+      Szobafoglaláshoz maximum 1 autó vagy 2 motorkerékpár parkolása
+      díjmentes, előzetes engedéllyel.
+    </p>
+    <img src="hotel-szeleta-fotok-szolgaltatasok120.jpg" alt="Parkolás" class="kepek" />
+
+    <h1>Ajándékkupon:</h1>
+    <p>
+      Lepje meg szeretteit ajándékkuponnal! Az Ajánlat/Foglalás menüpontban
+      kérhető kupon, a fizetés pedig banki átutalással vagy SZÉP kártyával
+      történik.
+    </p>
+
+    <h1>Különterem:</h1>
+    <p>
+      35 m²-es klimatizált különtermünk 35-40 fő befogadására alkalmas,
+      házimozi, projektor és flipchart áll rendelkezésre. A terem 11:00-tól
+      igénybe vehető tréningekhez és családi rendezvényekhez.
+    </p>
+  </main>
+  <footer>
+    <p>© 2024 www.hotelszeleta.hu</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

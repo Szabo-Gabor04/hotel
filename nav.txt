@@ -1,0 +1,21 @@
+   <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="#">
+            <img src="logo.png" alt="Hotel Szeleta" id="logo">
+        </a>
+
+        <div class="collapse navbar-collapse" id="navbarNav  navbarToggleExternalContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item "><a class="nav-link" href="#">Főoldal</a></li>
+                <li class="nav-item "><a class="nav-link" href="rolunk.html">Rólunk</a></li>
+                <li class="nav-item "><a class="nav-link" href="szolgaltatasok.html">Szolgáltatások</a></li>
+                <li class="nav-item "><a class="nav-link" href="latnivalok.html">Látnivalók</a></li>
+                <li class="nav-item "><a class="nav-link" href="galeria.html">Galéria</a></li>
+                <li class="nav-item "><a class="nav-link" href="arak.html">Árak</a></li>
+                <li class="nav-item "><a class="nav-link" href="ajanlatfoglalas.html">Ajánlat/Foglalás</a></li>
+                <li class="nav-item "><a class="nav-link" href="eljutas.html">Eljutás</a></li>
+                <li class="nav-item "><a class="nav-link" href="eng.html">ENG</a></li>
+            </ul>
+        </div>
+
+      
+    </nav>
